@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="author" content="Pavan">
+        <title>Home | AutoMob-Mechanic</title>
+    </head>
+    <body>
+        <nav>
+        <h2><a href="index.html">AutoMob-Mechanic</a></h2>
+        <a href="index.html">Home </a> | <a href="services.html"> Services </a> | <a href="booking.html"> Booking </a> | 
+        <a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993;</a> | <span> 999 999 9999 &#9742;</span>
+        </nav>
+        <hr><br><br>
+        <h2>Schedule Your Appointment</h2><br><br>
+        <label for="">Appointment date:</label>
+        <input type="date"><br><br>
+        <label for="">Address:</label>
+        <textarea name="" rows="15" cols="30"></textarea><br><br>
+        <label for="">City:</label>
+        <input type="text"><br><br>
+        <label for="state">State:</label>
+        <input list="state" >
+        <datalist id="state">
+            <option value="Assam">
+                <option value="Bihar">
+                    <option value="Gujarat">
+                        <option value="Goa">
+        </datalist><br><br>
+        <label for="notification">Send Notification</label>
+        <input type="checkbox" id="notification" name="notification" value="Email">
+        <label for="notification">Email</label>
+        <input type="checkbox" id="notification" name="notification" value="SMS">
+        <label for="notification">SMS</label><br><br>
+        <input type="button" onclick="window.location.href='appointment-success.html'" value="Book">
+        <hr>
+        <p>Copyright &copy; 2020 AutoMob-Mechanic. All Rights Reserved.</p>
+    </body>
+</html>
